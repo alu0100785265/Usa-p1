@@ -1,0 +1,28 @@
+
+body{
+	background-color:#F5BCA9;
+}
+.nav{
+	text-align:center;
+	padding: 0px;
+	font-size: 3em;
+}
+
+.izqu{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 3em;
+}
+
+
+.der{
+	float: right;
+	display: inline-block;
+	width: 40%;
+	margin-top: 4em;
+}
+
+.last{
+	clear: both;
+}

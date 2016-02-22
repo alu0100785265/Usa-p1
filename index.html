@@ -2,14 +2,18 @@
 <html>
         <head>
             <link rel="shortcut icon" href="./Imagenes/logo.png">
+            <link rel="stylesheet" type="text/css" href="css/styles.css">
             <title>UnivesiCar</title>
             <meta charset="utf-8">
         </head>
         
-        <body bgcolor="#F5BCA9">
-                <h1 align="center">UniversiCar</h1>
+        <body>
+
+                <h1 class="nav"> UniversiCar</h1>
+
+                <div class="izqu">
                     </br>
-                        <h2>Información</h2>
+                        <h2 align="center">Información</h2>
                         <p>
                              UniversiCar, es una aplicación web capaz de poner en 
                             contacto a personas que se desplazan a la universidad
@@ -29,8 +33,11 @@
 		                	<img src="./Imagenes/logo.png" width=178 height=180 border=2/>
                     </div>
                     </br>
-                    <hr color="black">
-                <div>
+                </div>
+
+
+
+                <div class="der">
                     <form action="fin_registro.html" target="_blank" method="GET" >
                             <fieldset>
                                     <legend>Registro</legend>
@@ -39,12 +46,15 @@
                                             <tr><td> Apellidos:</td> <td><input value="" type="text" name="apellidos"  /></br></td></tr>
                                             <tr><td> Gmail: </td><td><input type="text" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="email"  /> </br></td></tr>
                                             <tr><td> Contraseña: </td><td><input type="password" name="password" value="" maxlength="10" /></br></td></tr>
-                                            <tr><td> Verificar contraseña: </td><td><input type="password" name="password2" value="" maxlength="10" /></br>
+                                            <tr><td> Verificar contraseña: </td><td><input type="password" name="password2" value="" maxlength="10" />
+                                            </br>
+                                            </br>
                                             <tr><td> Sexo:</td><td><input name="sexo" type="radio" valor="mujer"/>Mujer</td><br/>
                                                                 <td><input name="sexo" type="radio" valor="hombre"/>Hombre</td><br/></tr>
             		  
                                             <tr><td>
-                                                    <span>
+                                            </br>
+                                                    <span>Fecha:
                                                          <select aria-label="Día" name="day_cumple" id="day" title="Día">
                                                             <option value="0" selected="1">Día
                                                             </option><option value="1">1
@@ -176,8 +186,7 @@
                     </form>
                 </div>
                 
-                <hr color="black">
-        		<div>
+        		<div class="last">
         			  <h2>Enlaces de interes</h2>
         			  <a href="https://www.google.es" target="_blank">Pagina google.</a></br>
         		      <a href="./Imagenes/logo.png" target="_blank">Imagen de nuestro logo.</a></br>
