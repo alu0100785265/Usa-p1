@@ -55,3 +55,45 @@ table a:hover{
 .last{
 	clear: both;
 }
+
+
+p{
+	margin-top: 0.5em;
+}
+.relleno{
+	margin-bottom: 0.7em;
+	padding: 0.3em;
+	margin-top: -5em;
+}
+
+
+
+ol li:hover {
+	background: white;
+}
+
+
+
+
+ #menuListHoriz li {
+  list-style: none;
+  display: inline;/* Es necesario para que los elementos de la lista se situen uno tras otro (horizontalidad) */
+}
+
+#menuListHoriz li a, #menuList1 li a:focus {
+  
+  background-color: #99CCCC;
+  border: 1px solid #0000FF;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-family: Verdana,Arial,Helvetica;
+  font-size: 12px;
+  font-weight:bold;
+}
+
+#menuListHoriz li a:hover {
+  background-color: #003399;
+  border-color: #FFF;
+  
+}
