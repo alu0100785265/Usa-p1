@@ -1,6 +1,9 @@
 
 body{
 	background-color:#F5BCA9;
+    font-family: arial;
+    font-size: 1.5em; 
+    color: black;
 }
 .nav{
 	text-align:center;
