@@ -9,14 +9,26 @@ body{
 a:link{ 
     color: blue;
 }
-
-a:hover {
+a:visited { 
+    font-family: Verdana;
     color: red;
 }
 
-a:visited { 
-    font-family: Verdana;
+a:hover {
     color: blue;
+}
+
+table a:link{  
+    font-family: Verdana;
+    color:green;
+}
+
+table a:visited{
+     color:red;
+}
+
+table a:hover{
+     color:green;
 }
 
 .nav{
